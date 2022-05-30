@@ -1,7 +1,7 @@
 console.log("page loaded...");
 
 function playvideo (e)
-{  console.log("inside playvideo..")}
+{ e.play();  console.log("inside playvideo..")}
 
 function pausevideo (e)
 { e.pause(); console.log("inside pausevideo..")}
